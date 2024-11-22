@@ -4,6 +4,11 @@ This [project](https://www.theodinproject.com/lessons/node-path-javascript-battl
 
 ![Application Screenshot](app_screenshot.png)
 
+## Live Demo
+
+You can try the game live by visiting the following URL:
+[JavaScript Battleship Game](https://1bewildered-bit.surge.sh/)
+
 ## Features
 
 - **Interactive Gameplay**: Play a classic Battleship game against an opponent.
