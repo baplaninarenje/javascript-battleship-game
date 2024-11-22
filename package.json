@@ -1,0 +1,17 @@
+{
+  "name": "javascript-battleship-game",
+  "author": "Stefan Ljiljak",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0"
+  }
+}

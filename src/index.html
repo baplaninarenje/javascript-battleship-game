@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+  </head>
+  <body>
+    <dialog class="modal-overlay modal-lose" id="modalOverlay">
+      <p>Game over. <span data-game-over-msg></span></p>
+      <button>Play again</button>
+    </dialog>
+    <header>
+      <h1>Battleship <span class="battleship-classic">classic</span></h1>
+      <div class="notification">
+        <p class="notification-message">Place the ships.</p>
+      </div>
+    </header>
+    <main class="board-container">
+      <section class="real-player-container">
+        <div class="board" id="real-player-board"></div>
+        <p>Your grid</p>
+      </section>
+      <button id="battlefield-start-button">Play</button>
+      <section class="computer-player-container">
+        <div class="board board-disabled" id="computer-player-board"></div>
+        <p>Computer's grid</p>
+      </section>
+    </main>
+    <section class="controls">
+      <div class="randomly">
+        <button class="placeships" id="randomise">Randomise</button>
+        <span class="placeships-variant"></span>
+      </div>
+      <p>To manually rotate the ship: Click on the ship.</p>
+      <p>To manually move the ship: Drag the ship to the desired position.</p>
+    </section>
+    <footer>
+      <a
+        class="copyright"
+        href="https://github.com/baplaninarenje"
+        target="_blank"
+        >&copy; 2024 Stefan Ljiljak</a
+      >
+      <a
+        class="copyright"
+        href="https://en.wikipedia.org/wiki/Battleship_(game)#Description"
+        target="_blank"
+        >Rules of the Game</a
+      >
+    </footer>
+  </body>
+</html>
