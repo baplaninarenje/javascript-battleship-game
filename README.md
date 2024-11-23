@@ -1,6 +1,6 @@
 # JavaScript Battleship Game
 
-This [project](https://www.theodinproject.com/lessons/node-path-javascript-battleship) is a simple implementation of the classic [Battleship game](<https://en.wikipedia.org/wiki/Battleship_(game)#Description>) using JavaScript. It includes features such as ship placement, drag and drop functionality, turn-based gameplay, and a grid-based interface. The app is built with modern JavaScript tools and follows a modular design approach.
+This [project](https://www.theodinproject.com/lessons/node-path-javascript-battleship) is a simple implementation of the classic [Battleship game](<https://en.wikipedia.org/wiki/Battleship_(game)#Description>) using JavaScript. It includes features such as ship placement, drag-and-drop functionality (currently unsupported on the Mozilla Firefox browser), turn-based gameplay, and a grid-based interface. The app is built with modern JavaScript tools and follows a modular design approach.
 
 ![Application Screenshot](app_screenshot.png)
 
@@ -18,6 +18,19 @@ You can try the game live by visiting the following URL:
 - **Testing with Jest**: Unit tests to ensure the reliability of game logic.
 
 ---
+
+## Future Improvements and Fixes
+
+### Fixes
+
+- **Drag-and-Drop on Mozilla Firefox**: Address the current issue where the drag-and-drop functionality does not work properly on the Firefox browser.
+
+### Improvements
+
+- **Responsiveness**: Enhance the application's layout to ensure it looks better on devices with smaller screens, such as mobile phones.
+- **Informative Animations**: Introduce user-friendly animations to enhance visual feedback, including:
+  - Animations for sunk ships.
+  - Indicators when a ship is attempted to be dragged to an occupied cell or outside the grid boundaries.
 
 ## Installation and Setup
 
